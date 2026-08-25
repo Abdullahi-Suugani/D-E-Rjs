@@ -1,7 +1,11 @@
-echo "# D-E-Rjs" >> README.md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Abdullahi-Suugani/D-E-Rjs.git
-git push -u origin main
+import UserCard from "./UserCard";
+
+function App() {
+  return (
+    <div>
+      <UserCard />
+    </div>
+  );
+}
+
+export default App;
