@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p> My Blog.</p>
+      <h1> My Blog.</h1>
     </footer>
   );
 }
